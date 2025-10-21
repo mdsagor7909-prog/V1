@@ -22,7 +22,7 @@ module.exports.run = async function({ api, event, Users, Threads }) {
 
   const type = (event.author == event.logMessageData.leftParticipantFbId)
     ? " You have no scape to leave from the group without admin's permission \n✦─────꯭─⃝‌‌ARIFUL 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭────✦"
-    : "Admin remove a member from the group\nবালপাকনামি করার কারণে তোকে রিমুভ করা হলো\n✦─────꯭─⃝‌‌ARIFUL 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭────✦";
+    : "Admin remove a member from the group\nলাথি মেরে বের করে দেওয়া হলো\n✦─────꯭─⃝‌‌ARIFUL 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭────✦";
 
   const path = join(__dirname, "ARIFUL", "leaveGif");
   const gifPath = join(path, `leave1.gif`);
